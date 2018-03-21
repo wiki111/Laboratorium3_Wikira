@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Poll</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>What languages do you know ?</div>
+        
+        <form action="PollServlet" method="POST">
+            <input type="checkbox" name="aspnet"> ASP .NET <br>
+            <input type="checkbox" name="java"> Java <br>
+            <input type="checkbox" name="ruby"> Ruby <br>
+            <input type="checkbox" name="python"> Python <br>
+            <input type="checkbox" name="php"> PHP <br>
+            <input type="checkbox" name="csharp"> C# <br>
+            <input type="submit" value="Vote">
+        </form>
+        
+    </body>
+</html>
